@@ -1,0 +1,50 @@
+{
+    "Acevedo LLC": {
+        "Company Number": "8cC6B5992C0309c",
+        "Company Name": "Acevedo LLC",
+        "Date of Balance Sheet": "01/01/2022",
+        "Number Shares": 2,
+        "Share Price": 1,
+        "Net Assets": "100000.00"
+    },
+    "Walls-Mcdonald": {
+        "Company Number": "ec094061FeaF7Bc",
+        "Company Name": "Walls-Mcdonald",
+        "Date of Balance Sheet": "04/02/2021",
+        "Number Shares": 20,
+        "Share Price": 20,
+        "Net Assets": "20000.00"
+    },
+    "Gregory PLC": {
+        "Company Number": "EbBb57D0b953b2C",
+        "Company Name": "Gregory PLC",
+        "Date of Balance Sheet": "08/10/2022",
+        "Number Shares": 5,
+        "Share Price": 100,
+        "Net Assets": "5000000.00"
+    },
+    "Underwood Group": {
+        "Company Number": "B8Ae13EDE3C6F29",
+        "Company Name": "Underwood Group",
+        "Date of Balance Sheet": "09/01/2023",
+        "Number Shares": 3,
+        "Share Price": 3,
+        "Net Assets": "200000.00"
+    },
+    "Berry Rios and Farley": {
+        "Company Number": "15eebAddAc2Ce09",
+        "Company Name": "Berry Rios and Farley",
+        "Date of Balance Sheet": "10/01/2019",
+        "Number Shares": 2,
+        "Share Price": 1,
+        "Net Assets": "10000.00"
+    },
+    "York Ltd": {
+        "Company Number": "d691CfcfE51066D",
+        "Company Name": "York Ltd",
+        "Date of Balance Sheet": "30/11/2021",
+        "Number Shares": 2,
+        "Share Price": 1,
+        "Net Assets": "25000.00"
+    }
+}
