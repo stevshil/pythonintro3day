@@ -1,0 +1,33 @@
+{
+  "companyDetails": {
+    "number": 111111,
+    "name": "companyNameGoesHere"
+  },
+  "balanceSheetDate": {
+    "year": 1111,
+    "month": 11,
+    "day": 11
+  },
+  "accounts": {
+    "shareholdersFund": 11111.11,
+    "cash": 111.11,
+    "netAssets": 111.11
+  },
+  "statement": {
+    "yearEnding": {
+      "year": 1111,
+      "month": 11,
+      "day": 11
+    }
+  },
+  "approval": {
+    "year": 1111,
+    "month": 11,
+    "day": 11
+  },
+  "presenter": {
+    "contact": "yourName",
+    "companyName": "coName",
+    "address": "full address details"
+  }
+}
