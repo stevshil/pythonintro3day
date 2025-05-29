@@ -4,7 +4,7 @@
 import pyodbc
 
 try:
-    conn = conn = pyodbc.connect(f"DRIVER={{ODBC Driver 17 for SQL Server}};SERVER=localhost\\SQLExpress;DATABASE=steve;UID=sa;PWD=P@SSw0rd123;", timeout=5)
+    conn = pyodbc.connect(f"DRIVER={{ODBC Driver 17 for SQL Server}};SERVER=localhost\\SQLExpress;DATABASE=steve;UID=sa;PWD=P@SSw0rd123;", timeout=5)
 except Exception as e:
     print("Unable to connect to the database")
     print("Issue is",e)
