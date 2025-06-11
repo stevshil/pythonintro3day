@@ -18,6 +18,7 @@ guesses = {}
 incorrect = {}
 correct = {}
 guessed = False
+alphabet="".join([chr(x) for x in range(97,97+26)])
 
 # Unique letters in the word to guess
 allletters = {}
@@ -96,7 +97,7 @@ hangmanimage = [
 # The main game loop
 while len(incorrect.keys()) < len(hangmanimage)-1:
     guess=input("Enter a letter: ").lower()
-    if guess not in "abcdefghijklmnopqrstuvwxyz":
+    if guess not in alphabet:
         continue
 
     # Assign the letter to the guesses
