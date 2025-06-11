@@ -1,9 +1,9 @@
 from random import random
 
-# import requests
+import requests
 
-# response = requests.get("https://random-word-api.vercel.app/api?words=1")
-# wordtoguess = response.json()[0]
+response = requests.get("https://random-word-api.vercel.app/api?words=1")
+wordtoguess = response.json()[0]
 
 # Words to guess
 words=["apple", "banana", "cherry", "date",
@@ -96,6 +96,8 @@ hangmanimage = [
 # The main game loop
 while len(incorrect.keys()) < len(hangmanimage)-1:
     guess=input("Enter a letter: ").lower()
+    if guess not in "abcdefghijklmnopqrstuvwxyz":
+        continue
 
     # Assign the letter to the guesses
     guesses[guess]=1
