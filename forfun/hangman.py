@@ -94,7 +94,7 @@ hangmanimage = [
 # print(wordtoguess)
 
 # The main game loop
-while len(incorrect.keys()) < len(hangmanimage):
+while len(incorrect.keys()) < len(hangmanimage)-1:
     guess=input("Enter a letter: ").lower()
 
     # Assign the letter to the guesses
@@ -123,10 +123,6 @@ while len(incorrect.keys()) < len(hangmanimage):
     # If all letters have been guessed, the game is won
     if len(allletters.keys()) == len(correct.keys()):
         guessed=True
-        break
-
-    if len(incorrect.keys()) == len(hangmanimage):
-        guessed=False
         break
 
     # Show the state of the condemned
