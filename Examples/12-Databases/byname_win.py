@@ -2,6 +2,8 @@ import pyodbc
 
 try:
     conn = pyodbc.connect(f"DRIVER={{ODBC Driver 17 for SQL Server}};SERVER=localhost\\SQLExpress;DATABASE=steve;UID=sa;PWD=P@SSw0rd123;", timeout=5)
+    # Using Trusted Authentication (Windows Logon)
+    # conn = pyodbc.connect(f"DRIVER={{ODBC Driver 17 for SQL Server}};SERVER=localhost\\SQLExpress;DATABASE=steve;Trusted_Connection=yes;", timeout=5)
     print("Connected to the database")
 except Exception as e:
     print("Unable to connect to the database")
